@@ -10,6 +10,7 @@ This walkthrough demonstrates how to configure a firewall in Microsoft Azure to 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Wireshark
+- Powershell
 
 <h2>Operating Systems Used </h2>
 
