@@ -1,41 +1,38 @@
 ![image](https://user-images.githubusercontent.com/109401839/230745596-57cee9bd-687c-427d-b0db-d1080df77f7e.png)
 
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1>Firewall Configuration in Microsoft Azure</h1>
+This walkthrough demonstrates how to configure a firewall in Microsoft Azure to deny specific traffic to your VM.<br />
 
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Internet Information Services (IIS)
+- Wireshark
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10
+- Linux
 
-<h2>List of Prerequisites</h2>
-
-- Azure Virtual Machine
-- osTicket Installation files
-- Heidi SQL
-
-<h2>Installation Steps</h2>
+<h2>Walkthrough Steps</h2>
 
 <p>
 </p>
 <p>
-Create a resource group and title it "osTicket". Afterwards create a VM with 2-4 CPUs. In this example I will be using 4 CPUs.
+Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM.
   
- <img src="https://i.imgur.com/OPaIGoN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://github.com/user-attachments/assets/d06bbcbf-d1b3-41c8-851a-b046cca82087" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <p>
 </p>
-<p>Next simply connect to your newly created VM using RDP using the public IPv4 address. If you are a Mac user you will have to download Microsoft RDP. 
+<p>Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic. 
 </p>
-<img src="https://i.imgur.com/uLVKzxS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/d34c02ee-7c49-4ca6-ad72-916ef63e8e6b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/492d8472-cc2e-4545-b36d-db662b66c7da" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/38a9f58a-2467-400c-bf53-9e9bd3c57747" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
